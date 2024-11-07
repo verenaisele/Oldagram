@@ -3,3 +3,19 @@ html, body {
     padding: 0;
 }
 
+.container{
+    width: 375px;
+}
+
+header{
+    border-bottom: 1px solid #C6C6C6;
+    padding: 15px;
+}
+
+.logo{
+    width: 127px;
+}
+
+.user-avatar{
+    width: 34px;
+}
