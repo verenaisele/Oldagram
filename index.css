@@ -1,21 +1,69 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
 }
+
+/* typography */
+.small-text{
+    font-size: 12px;
+}
+
+/* layout */
 
 .container{
     width: 375px;
+    margin: 0 auto;
 }
 
 header{
     border-bottom: 1px solid #C6C6C6;
-    padding: 15px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
     width: 127px;
 }
 
-.user-avatar{
+.small-picture{
     width: 34px;
+    border-radius: 50%;
+    display: block;
+}
+
+.post-img{
+    margin-bottom: 20px;
+}
+
+.post-header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 12px 10px;
+}
+
+.user-info p{
+    margin: 0;
+}
+
+.icons{
+    width: 23px;
+    padding-right: 15px;
+}
+
+.post-icons, .post-footer, .user-info{
+    padding-left: 10px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+footer{
+    background-color: #EDEDED;
+    padding: 12px;
 }

@@ -1,44 +1,44 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class"container">
+        <div class="container">
            
             <header>
                 <img class="logo" src="images/logo.png" alt="Logo oldagram">
-                <img class="user-avatar" src="images/user-avatar.png" alt="profile image of user">
+                <img class="small-picture" src="images/user-avatar.png" alt="profile image of user">
             </header>
 
             <section>
                 <div class="post-header">
-                    <img src="images/avatar-vangogh.jpg" alt="profile image of avatar">
-                    <p>Vincent van Gogh</p>
-                    <p>Zundert, Netherlands</p>
+                    <img class="small-picture" src="images/avatar-vangogh.jpg" alt="profile image of avatar">
+                    <div class="user-info">
+                        <p class="bold">Vincent van Gogh</p>
+                        <p class="small-text">Zundert, Netherlands</p>
+                    </div>
+                  
                 </div>
                 <div class="post-img">
                     <img src="images/post-vangogh.jpg" alt="self portrait of avatar">
                 </div>
+                <div class="post-icons">
+                    <img class="icons heart" src="images/icon-heart.png" alt="heart icon">
+                    <img class="icons comment" src="images/icon-comment.png" alt="comment icon">
+                    <img class="icons dm" src="images/icon-dm.png" alt="send icon">
+                </div>
                 <div class="post-footer">
-                    <img src="images/icon-heart.png" alt="">
-                    <img src="images/icon-comment.png" alt="">
-                    <img src="images/icon-dm.png" alt="">
-                    <p>21,492 likes</p>
-                    <p>vincey1853 just took a few mushrooms lol</p>
+                    <p class="bold">21,492 likes</p>
+                    <p><span class="bold">vincey1853</span> just took a few mushrooms lol</p>
                 </div>
             </section>
+            <footer></footer>
 
       </div>
        
         <script src="index.js"></script>
     </body>
 </html>
-
-<!-- name: "Vincent van Gogh",
-        username: "vincey1853",
-        location: "Zundert, Netherlands",
-        avatar: "images/avatar-vangogh.jpg",
-        post: "images/post-vangogh.jpg",
-        comment: "just took a few mushrooms lol",
-        likes: 21
-     -->
