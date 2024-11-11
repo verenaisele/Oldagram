@@ -1,3 +1,6 @@
+const likeBtn = document.getElementById("like-btn")
+let likes = document.getElementById("like-number")
+
 const posts = [
     {
         name: "Vincent van Gogh",
@@ -28,3 +31,6 @@ const posts = [
     }
 ]
 
+// likeBtn.addEventListener('click', function() {
+//     likes.textContent += likes + 1 + " likes"
+// })
